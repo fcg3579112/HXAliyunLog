@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4FEEDF3AE179B4BE6AB5AEA1 /* Pods_HXAliyunLog_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF99115DB211C096E6B2095C /* Pods_HXAliyunLog_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		EB03F19956BFEEE6551E8F2B /* Pods_HXAliyunLog_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA431F864E961DA16ECD3A07 /* Pods_HXAliyunLog_Tests.framework */; };
+		7782E7758D778AF392A4A82C /* Pods_HXAliyunLog_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC2394570A65F6BE57E664E /* Pods_HXAliyunLog_Tests.framework */; };
+		9682CD62F0242FCFA3544E97 /* Pods_HXAliyunLog_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79C6405823C811CF28C0FBE /* Pods_HXAliyunLog_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CC2394570A65F6BE57E664E /* Pods_HXAliyunLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXAliyunLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E1D81564BC9747E77E70E43 /* Pods-HXAliyunLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXAliyunLog_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HXAliyunLog_Tests/Pods-HXAliyunLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		54E024F5D52DEA0757BB8FA7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		560B5DDDAEFCA81675020729 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		54E024F5D52DEA0757BB8FA7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		560B5DDDAEFCA81675020729 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HXAliyunLog_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXAliyunLog_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +42,11 @@
 		607FACE51AFB9204008FA782 /* HXAliyunLog_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXAliyunLog_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		64F73B66561331A20421D527 /* HXAliyunLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HXAliyunLog.podspec; path = ../HXAliyunLog.podspec; sourceTree = "<group>"; };
+		64F73B66561331A20421D527 /* HXAliyunLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HXAliyunLog.podspec; path = ../HXAliyunLog.podspec; sourceTree = "<group>"; };
 		9A7B778CFC1BD113E2FEE9F2 /* Pods-HXAliyunLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXAliyunLog_Tests.release.xcconfig"; path = "Target Support Files/Pods-HXAliyunLog_Tests/Pods-HXAliyunLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9FC19986846A139B19FC7030 /* Pods-HXAliyunLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXAliyunLog_Example.release.xcconfig"; path = "Target Support Files/Pods-HXAliyunLog_Example/Pods-HXAliyunLog_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BF99115DB211C096E6B2095C /* Pods_HXAliyunLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXAliyunLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA431F864E961DA16ECD3A07 /* Pods_HXAliyunLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXAliyunLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B7A5F342F1BF9D8EA99925 /* Pods-HXAliyunLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXAliyunLog_Example.debug.xcconfig"; path = "Target Support Files/Pods-HXAliyunLog_Example/Pods-HXAliyunLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F79C6405823C811CF28C0FBE /* Pods_HXAliyunLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXAliyunLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FEEDF3AE179B4BE6AB5AEA1 /* Pods_HXAliyunLog_Example.framework in Frameworks */,
+				9682CD62F0242FCFA3544E97 /* Pods_HXAliyunLog_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB03F19956BFEEE6551E8F2B /* Pods_HXAliyunLog_Tests.framework in Frameworks */,
+				7782E7758D778AF392A4A82C /* Pods_HXAliyunLog_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,6 @@
 				4E1D81564BC9747E77E70E43 /* Pods-HXAliyunLog_Tests.debug.xcconfig */,
 				9A7B778CFC1BD113E2FEE9F2 /* Pods-HXAliyunLog_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -154,8 +153,8 @@
 		A57FD165CB5334E2BD8859F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF99115DB211C096E6B2095C /* Pods_HXAliyunLog_Example.framework */,
-				DA431F864E961DA16ECD3A07 /* Pods_HXAliyunLog_Tests.framework */,
+				F79C6405823C811CF28C0FBE /* Pods_HXAliyunLog_Example.framework */,
+				1CC2394570A65F6BE57E664E /* Pods_HXAliyunLog_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				BA81A3044B2D9E12DF7EB031 /* [CP] Embed Pods Frameworks */,
+				D020E3BF0F262E6AFF72EC1A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,11 +212,14 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = M964429A2L;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -227,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -284,17 +287,19 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BA81A3044B2D9E12DF7EB031 /* [CP] Embed Pods Frameworks */ = {
+		D020E3BF0F262E6AFF72EC1A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HXAliyunLog_Example/Pods-HXAliyunLog_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/HXAliyunLog/HXAliyunLog.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HXAliyunLog.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,11 +483,14 @@
 			baseConfigurationReference = E9B7A5F342F1BF9D8EA99925 /* Pods-HXAliyunLog_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = M964429A2L;
 				INFOPLIST_FILE = HXAliyunLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.red.answer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.hxjs.developer;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -493,11 +501,14 @@
 			baseConfigurationReference = 9FC19986846A139B19FC7030 /* Pods-HXAliyunLog_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = M964429A2L;
 				INFOPLIST_FILE = HXAliyunLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.red.answer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.hxjs.developer;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -507,6 +518,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E1D81564BC9747E77E70E43 /* Pods-HXAliyunLog_Tests.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -519,6 +534,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXAliyunLog_Example.app/HXAliyunLog_Example";
@@ -529,6 +546,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A7B778CFC1BD113E2FEE9F2 /* Pods-HXAliyunLog_Tests.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -537,6 +558,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXAliyunLog_Example.app/HXAliyunLog_Example";

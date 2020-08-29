@@ -1,0 +1,25 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - HXAliyunLog (0.1.0):
+    - FMDB (= 2.7.5)
+
+DEPENDENCIES:
+  - HXAliyunLog (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+
+EXTERNAL SOURCES:
+  HXAliyunLog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  HXAliyunLog: 9fc0700dff4f59cc8a1ffab46ff65d0df27956cc
+
+PODFILE CHECKSUM: 4249bc38b6e8a6544aa0d7a56d4e58d7019a7b5a
+
+COCOAPODS: 1.9.1

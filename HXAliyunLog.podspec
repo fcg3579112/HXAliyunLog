@@ -21,22 +21,25 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/冯传高/HXAliyunLog'
+  s.homepage         = 'git@github.com:fcg3579112/HXAliyunLog'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '冯传高' => 'fengchuangao@huixuanjiasu.com' }
-  s.source           = { :git => 'https://github.com/冯传高/HXAliyunLog.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:fcg3579112/HXAliyunLog.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'HXAliyunLog/Classes/**/*'
+  s.source_files = 'HXAliyunLog/Classes/**/*.{h,m,c,swift}'
   
   # s.resource_bundles = {
   #   'HXAliyunLog' => ['HXAliyunLog/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.library = 'sqlite3'
+  s.requires_arc = true
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'Foundation'
+  s.dependency 'FMDB', '2.7.5'
+  s.swift_version = '5.0'
 end

@@ -1,0 +1,31 @@
+{
+  "name": "HXAliyunLog",
+  "version": "0.1.0",
+  "summary": "A short description of HXAliyunLog.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/冯传高/HXAliyunLog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "冯传高": "fengchuangao@huixuanjiasu.com"
+  },
+  "source": {
+    "git": "https://github.com/冯传高/HXAliyunLog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "HXAliyunLog/Classes/**/*.{h,m,c,swift}",
+  "libraries": "sqlite3",
+  "requires_arc": true,
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": "Foundation",
+  "dependencies": {
+    "FMDB": [
+      "2.7.5"
+    ]
+  }
+}
