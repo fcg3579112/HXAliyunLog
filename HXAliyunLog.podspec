@@ -40,6 +40,6 @@ TODO: Add long description of the pod here.
   s.requires_arc = true
   s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'Foundation'
-  s.dependency 'FMDB', '2.7.5'
+  s.dependency 'FMDB', '~> 2.7.5'
   s.swift_version = '5.0'
 end
