@@ -1,4 +1,5 @@
 use_frameworks!
+use_modular_headers!
 
 target 'HXAliyunLog_Example' do
   pod 'HXAliyunLog', :path => '../'

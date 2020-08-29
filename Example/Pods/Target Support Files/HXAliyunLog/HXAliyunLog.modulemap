@@ -1,0 +1,6 @@
+framework module HXAliyunLog {
+  umbrella header "HXAliyunLog-umbrella.h"
+
+  export *
+  module * { export * }
+}
