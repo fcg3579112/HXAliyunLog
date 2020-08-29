@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HXAliyunLog_Example' do
+  pod 'HXAliyunLog', :path => '../'
+
+  target 'HXAliyunLog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
